@@ -1,0 +1,15 @@
+{
+  "name": "markdown-blog",
+  "version": "1.0.0",
+  "description": "Testing generating a blog from markdown",
+  "main": "index.js",
+  "author": "Bryson Hotopp <bryson.hotopp@life.church>",
+  "license": "ISC",
+  "scripts": {
+    "generate": "yarn generate:articles",
+    "generate:articles": "node src/scripts/generate-articles.js"
+  },
+  "dependencies": {
+    "showdown": "1.9.1"
+  }
+}
