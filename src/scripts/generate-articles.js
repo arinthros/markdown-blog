@@ -11,6 +11,7 @@ const converter = new showdown.Converter({ghCompatibleHeaderId: true, tasklists:
 const articles = fs.readdirSync(`${process.cwd()}/src/blog`)
 
 const menu = fs.readFileSync(`${process.cwd()}/src/templates/_menu.html`)
+const footer = fs.readFileSync(`${process.cwd()}/src/templates/_footer.html`)
 const articleHeadTemplate = fs.readFileSync(`${process.cwd()}/src/templates/article/_head.html`)
 const articleTemplate = fs.readFileSync(`${process.cwd()}/src/templates/article/article.html`)
 const listHead = fs.readFileSync(`${process.cwd()}/src/templates/blog-list/_head.html`)
@@ -20,6 +21,7 @@ const listTemplate = fs.readFileSync(`${process.cwd()}/src/templates/blog-list/l
 let listHtml = listTemplate.toString()
     listHtml = listHtml.replace('{{head}}', listHead.toString())
     listHtml = listHtml.replace('{{menu}}', menu.toString())
+    listHtml = listHtml.replace('{{footer}}', footer.toString())
     listHtml = listHtml.replace('<li><a href="https://arinthros.com/blog">', '<li class="active"><a href="https://arinthros.com/blog">')
 
 
@@ -80,6 +82,7 @@ Promise.all(articles.map((article) => {
     let article = articleTemplate.toString()
     article = article.replace('{{head}}', articleHead)
     article = article.replace('{{menu}}', menu.toString())
+    article = article.replace('{{footer}}', footer.toString())
     article = article.replace('{{article}}', html)
 
     let listItem = listItemTemplate.toString()
