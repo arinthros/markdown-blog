@@ -1,3 +1,4 @@
+const path = require('path')
 const Client = require('ssh2-sftp-client')
 const sftp = new Client()
 
@@ -17,7 +18,7 @@ async function uploadBlogFiles() {
     //   console.log(`Uploaded ${info.source}`)
     // })
   
-    await sftp.uploadDir(`${process.cwd()}\\dist\\blog`, '/home/arinthros/arinthros.com/blog')
+    await sftp.uploadDir(path.join(process.cwd(), 'dist', 'blog'), '/home/arinthros/arinthros.com/blog')
     
     console.log('Successfully deployed blog!')
     process.exit(0)
