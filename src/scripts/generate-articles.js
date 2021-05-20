@@ -56,8 +56,8 @@ Promise.all(articles.map((article) => {
       let imageUrl = dataString.match(/<imageUrl>.*<\/imageUrl>/gm)[0]
       imageUrl = imageUrl.slice(10, imageUrl.length - 11)
       
-      let cleanedDataString = dataString.replace(/<keywords>.*<\/keywords>[\n]/gm, '')
-      cleanedDataString = cleanedDataString.replace(/<imageUrl>.*<\/imageUrl>[\n]+/gm, '')
+      let cleanedDataString = dataString.replace(/<keywords>.*<\/keywords>/gm, '')
+      cleanedDataString = cleanedDataString.replace(/<imageUrl>.*<\/imageUrl>/gm, '')
 
       const html = converter.makeHtml(cleanedDataString)
       resolve({ ...fileData, html, title, description, keywords, imageUrl })
@@ -71,11 +71,11 @@ Promise.all(articles.map((article) => {
     const articleUrl = `https://arinthros.com/blog/${fileName}`
 
     let articleHead = articleHeadTemplate.toString()
-    articleHead = articleHead.replaceAll('{{title}}', title)
-    articleHead = articleHead.replaceAll('{{keywords}}', keywords)
-    articleHead = articleHead.replaceAll('{{description}}', description)
-    articleHead = articleHead.replaceAll('{{imageUrl}}', imageUrl)
-    articleHead = articleHead.replaceAll('{{articleUrl}}', articleUrl)
+    articleHead = articleHead.replace(/{{title}}/g, title)
+    articleHead = articleHead.replace(/{{keywords}}/g, keywords)
+    articleHead = articleHead.replace(/{{description}}/g, description)
+    articleHead = articleHead.replace(/{{imageUrl}}/g, imageUrl)
+    articleHead = articleHead.replace(/{{articleUrl}}/g, articleUrl)
 
     let article = articleTemplate.toString()
     article = article.replace('{{head}}', articleHead)
@@ -83,9 +83,9 @@ Promise.all(articles.map((article) => {
     article = article.replace('{{article}}', html)
 
     let listItem = listItemTemplate.toString()
-    listItem = listItem.replaceAll('{{articleUrl}}', articleUrl)
-    listItem = listItem.replaceAll('{{title}}', title)
-    listItem = listItem.replaceAll('{{description}}', description)
+    listItem = listItem.replace(/{{articleUrl}}/g, articleUrl)
+    listItem = listItem.replace(/{{title}}/g, title)
+    listItem = listItem.replace(/{{description}}/g, description)
     
     listArticles.push(listItem)
     

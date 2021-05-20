@@ -6,10 +6,12 @@
   "author": "Bryson Hotopp <bryson.hotopp@life.church>",
   "license": "ISC",
   "scripts": {
-    "generate": "yarn generate:articles",
+    "deploy": "yarn generate:articles && yarn deploy:blog",
+    "deploy:blog": "node src/scripts/deploy-blog.js",
     "generate:articles": "node src/scripts/generate-articles.js"
   },
   "dependencies": {
-    "showdown": "1.9.1"
+    "showdown": "1.9.1",
+    "ssh2-sftp-client": "6.0.1"
   }
 }
