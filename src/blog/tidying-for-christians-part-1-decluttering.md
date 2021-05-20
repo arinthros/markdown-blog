@@ -1,19 +1,19 @@
 # Tidying for Christians: Part 1 - Decluttering
 
-<keywords>decluttering,de-cluttering,konmari,tidying,christian</keywords>
+<keywords>decluttering,decluttering,konmari,tidying,christian</keywords>
 <imageUrl>https://source.unsplash.com/BMYQaySauY0</imageUrl>
 
 __*Create peace by simplifying in a God-honoring way.*__
 
-> [Use my easy-to-follow de-cluttering checklist](#tidying-checklist)
+> [Use my easy-to-follow decluttering checklist](#tidying-checklist)
 
-Before it was a fad, I read Marie Kondo’s book ‘The Life Changing Magic of Tidying Up’. I fell in love with the concept and the easy-to-follow methods for de-cluttering and organizing. Once it became a fad, many of my Christian friends and family dismissed it outright because of the Shinto spiritual ideologies that pervade Marie’s paradigms. Honestly, I think it was an easy excuse for many of them not to do the hard work of systematically addressing every item that they owned and putting their house in order. The goal of this writing is to put de-cluttering into Biblical perspective - because the practical aspects of the KonMari method are valuable and really do work.
+Before it was a fad, I read Marie Kondo’s book ‘The Life Changing Magic of Tidying Up’. I fell in love with the concept and the easy-to-follow methods for decluttering and organizing. Once it became a fad, many of my Christian friends and family dismissed it outright because of the Shinto spiritual ideologies that pervade Marie’s paradigms. Honestly, I think it was an easy excuse for many of them not to do the hard work of systematically addressing every item that they owned and putting their house in order. The goal of this writing is to put decluttering into Biblical perspective - because the practical aspects of the KonMari method are valuable and really do work.
 
 > **[Hebrews 13:5-6](https://bible.com/bible/2692/HEB.13.5-6)**
 >
 > Make sure that your character is free from the love of money, being content with what you have; for He Himself has said, “I will never desert you, nor will I ever abandon you,” so that we confidently say, “The Lord is my helper, I will not be afraid. What will man do to me?” 
 
-Contentment is the basis for de-cluttering. Scripture instructs us to be content with what we have, but how can we be fully content if we don’t even know what we have? As we accumulate items, many of them go in boxes on shelves and are forgotten. 
+Contentment is the basis for decluttering. Scripture instructs us to be content with what we have, but how can we be fully content if we don’t even know what we have? As we accumulate items, many of them go in boxes on shelves and are forgotten. 
 
 > **[Psalm 37:16](https://bible.com/bible/2692/PSA.37.16)**
 >
@@ -32,7 +32,7 @@ I’m not arguing for a minimalist lifestyle - things can make life easier and m
 > And that I will not become impoverished and steal,
 > And profane the name of my God.
 
-Keeping our lives in balance and in order are key to maintaining humility and keeping God first in our lives. De-cluttering our material possessions, and properly organizing what we keep, will enable us to live out this balanced lifestyle.
+Keeping our lives in balance and in order are key to maintaining humility and keeping God first in our lives. Decluttering our material possessions, and properly organizing what we keep, will enable us to live out this balanced lifestyle.
 
 
 ## My Version of the “KonMari” Philosophy
@@ -51,34 +51,34 @@ When things that once were joyful are no longer, they can become bondage. We are
 
 Once of the biggest issues with ‘The Life Changing Magic of Tidying Up’ is that Marie asks us to commune with or “pray” to our houses. She also asks the reader to thank each item, and treat it if it were a person with feelings. This is not biblical, however closure is important, especially with items of strong emotional or spiritual attachment.
 
-Before each day, or segment, of de-cluttering, take a deep breath and pray to the one true God. Thank him for the blessings he has given to you. Take a moment to remember the things He has provided. As you go along, thank God for each item. If an item is difficult to discard, thank Him for the purpose it once served, then discard the item.
+Before each day, or segment, of decluttering, take a deep breath and pray to the one true God. Thank him for the blessings he has given to you. Take a moment to remember the things He has provided. As you go along, thank God for each item. If an item is difficult to discard, thank Him for the purpose it once served, then discard the item.
 
 ### Utility
 
 In addition to sparking joy, I also added a category of Utility. My vacuum cleaner doesn’t bring me joy, but a clean floor does. Utility items can enable us to enjoy our blessings, and are therefore worthwhile to keep. This is not a license to justify everything that does not spark joy as a “utility”. Utility items should be reserved for items that repeatedly serve a purpose. That professional tool that’s getting dusty on your top shelf needs to be de-cluttered. Let it bless someone who can really use it. And let’s face it, those old screws are never going to be used. Get rid of them.
 
 
-## De-cluttering Guidelines
+## Decluttering Guidelines
 
 I highly recommend reading ‘The Life Changing Magic of Tidying Up’, but with the aforementioned philosophies in mind. The process is very valuable when performed from a Biblical perspective.
 
 ### Do the process completely at one time
 
-This is straight from Marie Kondo, and I can tell you it works. 3-6 months is a good window in which to do this process. Once you go through the de-cluttering process and then the organizing process, you will not go back to your old habits. It’s hard work, but if you commit to completely and utterly tidying your house in one fell swoop your house will be in order.
+This is straight from Marie Kondo, and I can tell you it works. 3-6 months is a good window in which to do this process. Once you go through the decluttering process and then the organizing process, you will not go back to your old habits. It’s hard work, but if you commit to completely and utterly tidying your house in one fell swoop your house will be in order.
 
 ### Sort by category, not location
 
 We often keep many of the same item in multiple locations around the house. In order to truly know what we have we must see it all together in one spot. I recently helped de-clutter a friend’s house, and we found 12 half-used rolls of tape and six industrial staplers. The problem was that the items were spread across many drawers in nearly every room of the house. They had no idea that they had so much already, and kept buying more.
 
-After de-cluttering, organize similar items in the same location. It might be a little less convenient, but you will always know the blessings that you have and can reduce waste by not purchasing what you don’t need.
+After decluttering, organize similar items in the same location. It might be a little less convenient, but you will always know the blessings that you have and can reduce waste by not purchasing what you don’t need.
 
 ### Order of operations matters
 
-The order of categories is really important. We start with easy items, and move on to difficult items. By the time you get down to sentimental items, you’re a pro at making tough de-cluttering decisions and it will be easier of you to get free from bondage.
+The order of categories is really important. We start with easy items, and move on to difficult items. By the time you get down to sentimental items, you’re a pro at making tough decluttering decisions and it will be easier of you to get free from bondage.
 
 ### People don’t want your garbage
 
-The default for de-cluttering should be to let your blessings become a blessing to others. But people don’t want your junk. Even good items will just clutter up someone else’s life and should just be thrown away. Ask yourself, would this item really be a blessing to someone else? Would it really honor God to give it away? Don’t let guilt trick you into donating an item that nobody really wants. Just throw it away.
+The default for decluttering should be to let your blessings become a blessing to others. But people don’t want your junk. Even good items will just clutter up someone else’s life and should just be thrown away. Ask yourself, would this item really be a blessing to someone else? Would it really honor God to give it away? Don’t let guilt trick you into donating an item that nobody really wants. Just throw it away.
 
 ## Tidying Checklist
 
