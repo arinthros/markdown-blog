@@ -10,9 +10,20 @@ const converter = new showdown.Converter({ghCompatibleHeaderId: true, tasklists:
 
 const articles = fs.readdirSync(`${process.cwd()}/src/blog`)
 
-const head = fs.readFileSync(`${process.cwd()}/src/templates/_head.html`)
 const menu = fs.readFileSync(`${process.cwd()}/src/templates/_menu.html`)
-const articleTemplate = fs.readFileSync(`${process.cwd()}/src/templates/article.html`)
+const articleHeadTemplate = fs.readFileSync(`${process.cwd()}/src/templates/article/_head.html`)
+const articleTemplate = fs.readFileSync(`${process.cwd()}/src/templates/article/article.html`)
+const listHead = fs.readFileSync(`${process.cwd()}/src/templates/blog-list/_head.html`)
+const listItemTemplate = fs.readFileSync(`${process.cwd()}/src/templates/blog-list/_item.html`)
+const listTemplate = fs.readFileSync(`${process.cwd()}/src/templates/blog-list/list.html`)
+
+let listHtml = listTemplate.toString()
+    listHtml = listHtml.replace('{{head}}', listHead.toString())
+    listHtml = listHtml.replace('{{menu}}', menu.toString())
+    listHtml = listHtml.replace('<li><a href="https://arinthros.com/blog">', '<li class="active"><a href="https://arinthros.com/blog">')
+
+
+const listArticles = []
 
 // Reset the output folder.
 if (fs.existsSync(basePaths.output)) {
@@ -57,20 +68,33 @@ Promise.all(articles.map((article) => {
 
     const { html, fileName, title, description, keywords, imageUrl } = value
 
-    let thisHead = head.toString()
-    thisHead = thisHead.replaceAll('{{title}}', title)
-    thisHead = thisHead.replaceAll('{{keywords}}', keywords)
-    thisHead = thisHead.replaceAll('{{description}}', description)
-    thisHead = thisHead.replaceAll('{{imageUrl}}', imageUrl)
-    thisHead = thisHead.replaceAll('{{articleUrl}}', `https://arinthros.com/blog/${fileName}`)
+    const articleUrl = `https://arinthros.com/blog/${fileName}`
 
-    let thisArticle = articleTemplate.toString()
-    thisArticle = thisArticle.replace('{{head}}', thisHead)
-    thisArticle = thisArticle.replace('{{menu}}', menu.toString())
-    thisArticle = thisArticle.replace('{{article}}', html)
+    let articleHead = articleHeadTemplate.toString()
+    articleHead = articleHead.replaceAll('{{title}}', title)
+    articleHead = articleHead.replaceAll('{{keywords}}', keywords)
+    articleHead = articleHead.replaceAll('{{description}}', description)
+    articleHead = articleHead.replaceAll('{{imageUrl}}', imageUrl)
+    articleHead = articleHead.replaceAll('{{articleUrl}}', articleUrl)
+
+    let article = articleTemplate.toString()
+    article = article.replace('{{head}}', articleHead)
+    article = article.replace('{{menu}}', menu.toString())
+    article = article.replace('{{article}}', html)
+
+    let listItem = listItemTemplate.toString()
+    listItem = listItem.replaceAll('{{articleUrl}}', articleUrl)
+    listItem = listItem.replaceAll('{{title}}', title)
+    listItem = listItem.replaceAll('{{description}}', description)
     
-    return fs.promises.mkdir(`${basePaths.output}/${fileName}`).then(() => fs.promises.writeFile(`${basePaths.output}/${fileName}/index.html`, thisArticle))
+    listArticles.push(listItem)
+    
+    return fs.promises.mkdir(`${basePaths.output}/${fileName}`).then(() => fs.promises.writeFile(`${basePaths.output}/${fileName}/index.html`, article))
   })).then(() => {
+
+    listHtml = listHtml.replace('{{list}}', listArticles.join('\n'))
+    fs.writeFileSync(`${basePaths.output}/index.html`, listHtml)
+
     console.log('finished generating html from markdown')
     process.exit(0)
   }).catch((error) => console.error(error.message))
